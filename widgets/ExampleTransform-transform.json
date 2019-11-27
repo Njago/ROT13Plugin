@@ -1,0 +1,33 @@
+{
+  "metadata": {
+    "spec-version": "1.5"
+  },
+  "display-name": "Mask Fields",
+  "configuration-groups": [
+    {
+      "label": "Mask",
+      "properties": [
+        {
+          "widget-type": "keyvalue-dropdown",
+          "label": "Mask Fields",
+          "name": "mask",
+          "widget-attributes": {
+            "showDelimiter": "false",
+            "dropdownOptions": [
+              "ROT13",
+              "NONE"
+            ],
+            "key-placeholder": "Field Name"
+          }
+        }
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "name": "schema",
+      "label": "schema",
+      "widget-type": "schema"
+    }
+  ]
+}
